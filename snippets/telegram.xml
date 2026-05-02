@@ -88,8 +88,4 @@
   <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" remote="telegramost" revision="telegramos-16.2" />
   <project path="device/qcom/sepolicy_vndr/sm8750" name="android_device_qcom_sepolicy_vndr" groups="qcom,pakala-vendor" remote="telegramost" revision="telegramos-16.2" />
 
-  <!-- Tools — не трогаем -->
-  <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" remote="lineage" />
-  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" remote="lineage" />
-
 </manifest>
