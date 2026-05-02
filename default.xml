@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch=".."
-           review="review.lineageos.org" />
+  <remote name="github"
+          fetch="https://github.com/LineageOS"
+          review="review.lineageos.org" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
+  <remote name="telegramost"
+          fetch="https://github.com/Telegram-OS" />
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com"
-           revision="refs/tags/android-16.0.0_r4" />
+  <remote name="private"
+          fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/lineage-23.2"
-           remote="github"
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="android-review.googlesource.com"
+          revision="refs/tags/android-16.0.0_r4" />
+
+  <default revision="refs/heads/telegramos-16.2"
+           remote="telegramost"
            sync-c="true"
            sync-j="4" />
 
@@ -1030,5 +1033,5 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
-  <include name="snippets/lineage.xml" />
+  <include name="snippets/telegram.xml" />
 </manifest>
