@@ -59,6 +59,7 @@
   <project path="vendor/apn" name="android_vendor_apn" revision="main" remote="telegramost" />
   <project path="vendor/crowdin" name="android_vendor_crowdin" remote="telegramost" revision="telegramos-16.2" />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="telegramost" revision="telegramos-16.2" />
+  <project path="vendor/telegramost" name="android_vendor_telegramost" remote="telegramost" revision="telegramos-16.2" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
