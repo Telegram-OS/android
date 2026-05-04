@@ -88,5 +88,7 @@
   <project path="device/qcom/sepolicy_vndr/sm8550" name="android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" remote="telegramost" revision="lineage-23.1-caf-sm8550" />
   <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" remote="telegramost" revision="lineage-23.1-caf-sm8650" />
   <project path="device/qcom/sepolicy_vndr/sm8750" name="android_device_qcom_sepolicy_vndr" groups="qcom,pakala-vendor" remote="telegramost" revision="lineage-23.1-caf-sm8750" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="telegramost" revision="telegramos-16.2" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="telegramost" revision="telegramos-16.2" />
 
 </manifest>
