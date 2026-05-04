@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- LineageOS additions -->
+  <!-- TelegramOS additions -->
   <project path="android" name="android" remote="telegramost" />
   <project path="device/lineage/atv" name="android_device_lineage_atv" remote="telegramost" />
   <project path="device/lineage/car" name="android_device_lineage_car" remote="telegramost" />
@@ -59,6 +59,7 @@
   <project path="vendor/apn" name="android_vendor_apn" revision="main" remote="telegramost" />
   <project path="vendor/crowdin" name="android_vendor_crowdin" remote="telegramost" />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="telegramost" />
+  <project path="vendor/telegramost" name="android_vendor_telegramost" remote="telegramost" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
